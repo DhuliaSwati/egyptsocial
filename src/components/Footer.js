@@ -40,14 +40,13 @@ All rights reserved.</span></p>
                     </Col>
                     <Col md={3}>
                         <ul>
-                            <li>Terms of Service</li>
-                            <li>Responsible Social Play</li>
+                            <Link to="/terms"><li>Terms of Service</li></Link>
+                            <Link to="/responsible-play"><li>Responsible Social Play</li></Link>
                         </ul>
                     </Col>
                     <Col md={2}>
                         <ul>
-                            <li>Privacy Policy</li>
-                            <li>Support</li>
+                            <Link to="/privacy-policy"><li>Privacy Policy</li></Link>
                         </ul>
                     </Col>
                 </Row>

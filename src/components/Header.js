@@ -2,10 +2,9 @@ import Container from "react-bootstrap/esm/Container"
 import Row from "react-bootstrap/esm/Row"
 import Col from "react-bootstrap/esm/Col"
 import { Link} from "react-router-dom"
-import logo from "../assets/Logo.png"
 import "../index.css"
 
-export default function Header(){
+export default function Header({logo}){
     return(
         <header>
             <Container>

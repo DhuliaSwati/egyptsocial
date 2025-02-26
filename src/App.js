@@ -11,12 +11,13 @@ import img2 from "./assets/img2.png";
 import img3 from "./assets/img3.png";
 import img4 from "./assets/img4.png";
 import img5 from "./assets/img5.png";
+import logo from "./assets/Logo.png";
 
 
 function App() {
   return (
     <>
-      <Header />
+      <Header logo={logo}/>
       {/* Hero Section */}
       <div className="heroSection">
       <Container>

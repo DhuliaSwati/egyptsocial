@@ -7,6 +7,9 @@ import Game from "./components/Game";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TermsService from './components/TermsService';
+import ResponsiblePlay from './components/ResponsiblePlay';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +21,9 @@ root.render(
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/game" element={<Game />} />
+                <Route path="/terms" element={<TermsService />} />
+                <Route path="/responsible-play" element={<ResponsiblePlay />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             </Routes>
             </BrowserRouter>
   </React.StrictMode>
