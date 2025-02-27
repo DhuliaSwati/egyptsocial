@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { supabase } from "../supabaseClient";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -8,11 +8,13 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./Signup.css";
 
+
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
+  const navigate = useNavigate();
 
   const handleSignup = async (e) => {
     e.preventDefault();
@@ -24,7 +26,12 @@ const SignUp = () => {
     if (error) {
       setError(error.message);
     } else {
-      setSuccess("Signup successful! Check your email to confirm your account.");
+      setSuccess("Signup successful! Redirecting to game...");
+      
+      // Redirect to game page after a short delay
+      setTimeout(() => {
+        navigate('/game');
+      }, 2000); 
     }
   };
 
