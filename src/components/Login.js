@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { supabase } from "../supabaseClient";
-import { Link, useNavigate } from "react-router-dom";  // Add useNavigate
-import Container from "react-bootstrap/Container";
+import { Link, useNavigate, useLocation } from "react-router-dom";  
+import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
@@ -9,13 +9,22 @@ import Button from "react-bootstrap/Button";
 import "./Login.css";
 
 const Login = () => {
-  const navigate = useNavigate();  // Initialize useNavigate
+  const navigate = useNavigate();
+  const location = useLocation();  // Get location to access state
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [session, setSession] = useState(null);
   const [error, setError] = useState("");
+  const [message, setMessage] = useState(""); // For notification messages
 
   useEffect(() => {
+    // Check if we have a message from the signup page
+    if (location.state?.message) {
+      setMessage(location.state.message);
+      // Clear the location state after reading it
+      window.history.replaceState({}, document.title);
+    }
+
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
       if (session) {
@@ -29,7 +38,7 @@ const Login = () => {
         navigate('/game');  // Redirect on auth state change
       }
     });
-  }, [navigate]);
+  }, [navigate, location]);
 
   const handleLogin = async () => {
     try {

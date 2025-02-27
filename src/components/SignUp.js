@@ -8,7 +8,6 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./Signup.css";
 
-
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -24,19 +23,40 @@ const SignUp = () => {
     const { user, error } = await supabase.auth.signUp({ email, password });
 
     if (error) {
-      setError(error.message);
+      // Check if the error message indicates the user already exists
+      if (error.message.includes("already registered") || 
+          error.message.includes("already exists") || 
+          error.message.includes("User already exists")) {
+        setError("An account with this email already exists.");
+        
+        // Redirect to login page after a short delay
+        setTimeout(() => {
+          navigate('/login', { 
+            state: { 
+              message: "This email is already registered. Please login instead." 
+            } 
+          });
+        }, 2000);
+      } else {
+        setError(error.message);
+      }
     } else {
       setSuccess("Signup successful! Redirecting to game...");
       
       // Redirect to game page after a short delay
       setTimeout(() => {
         navigate('/game');
-      }, 2000); 
+      }, 2000); // 2-second delay to show the success message
     }
   };
 
   const handleOAuthSignup = async (provider) => {
-    const { error } = await supabase.auth.signInWithOAuth({ provider });
+    const { error } = await supabase.auth.signInWithOAuth({ 
+      provider,
+      options: {
+        redirectTo: window.location.origin + '/game'
+      }
+    });
     if (error) setError(error.message);
   };
 
