@@ -128,7 +128,7 @@ const Login = () => {
                   Logg inn med Facebook
                 </Button>
                 <p className="login-link">
-                    Opprett ny konto? <Link to="/signup">Registrer deg</Link>
+                    Har du ikke en konto? <Link to="/signup">Registrer deg</Link>
                 </p>
               </div>
             </Form>

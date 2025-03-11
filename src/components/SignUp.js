@@ -46,7 +46,7 @@ const SignUp = () => {
       // Omdirigerer til spillsiden etter en kort forsinkelse
       setTimeout(() => {
         navigate('/game');
-      }, 2000); // 2-sekunders forsinkelse for å vise suksessmeldingen
+      }, 2000);
     }
   };
 
