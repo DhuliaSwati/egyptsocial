@@ -20,7 +20,7 @@ const ResponsiblePlay = () => {
                   <strong>Gjelder fra 1. juni 2023</strong>
                 </p>
 
-                <p><strong>Social Casino</strong>-plattformen og <strong>Jackpot Limited</strong> er forpliktet til å beskytte våre spillere og fremme ansvarlig sosialt spill som en del av vår kundeservice og sosiale ansvar. Vi erkjenner at spillene våre er underholdende og, som mange andre former for underholdning, bør brukes på en ansvarlig måte.</p>
+                <p><strong>Spinnogvinn</strong>-plattformen og <strong>Spinnogvinn</strong> er forpliktet til å beskytte våre spillere og fremme ansvarlig sosialt spill som en del av vår kundeservice og sosiale ansvar. Vi erkjenner at spillene våre er underholdende og, som mange andre former for underholdning, bør brukes på en ansvarlig måte.</p>
 
                 <h3 className="mt-5 mb-3">GENERELT</h3>
                 <p>Disse retningslinjene for ansvarlig sosialt spill ("RSGP") beskriver de ulike verktøyene og ressursene som er tilgjengelige for våre spillere for å sikre ansvarlig spilling.</p>

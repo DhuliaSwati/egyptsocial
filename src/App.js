@@ -23,7 +23,7 @@ function App() {
       <Container>
       <Row>
         <Col className="outerSection">
-          <h1 className="h1Heading">#1Sosial Casino</h1>
+          <h1 className="h1Heading">#1Sosialt Casino</h1>
           <p className="subPara">Gjør deg klar til å vinne stort</p>
           <Link to="/signup" className="linkBtn">Bli med nå</Link>
         </Col>

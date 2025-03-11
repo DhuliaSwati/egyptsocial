@@ -32,10 +32,10 @@ export default function Footer(){
             <Container className="footerMiddle pb-5">
                 <Row>
                     <Col md={7}>
-                        <p><span className="text-grey">Du er klar over og forstår at du gir informasjon til Social Casino. Den eneste bruken av denne informasjonen vil være å administrere denne kampanjen.</span>
+                        <p><span className="text-grey">Du er klar over og forstår at du gir informasjon til Spinnogvinn. Den eneste bruken av denne informasjonen vil være å administrere denne kampanjen.</span>
 INGEN KJØP NØDVENDIG<span className="text-grey"> for å delta i konkurranser. </span>KONKURRANSER ER
 UGYLDIGE DER LOVEN FORBYR DET.<span className="text-grey"> For mer informasjon om konkurranseregler,
-vennligst se Konkurransepolitikken. Opphavsrett © 2025 Jimmy Limited.
+vennligst se Konkurransepolitikken. Opphavsrett © 2025 Spinnogvinn.
 Alle rettigheter reservert.</span></p>
                     </Col>
                     <Col md={3}>
@@ -54,7 +54,7 @@ Alle rettigheter reservert.</span></p>
             <Container className="footerBottom">
                 <Row>
                     <Col className="text-center">
-                    <p className="text-grey">Inc. © 2025 Social Casino. Alle rettigheter reservert.</p>
+                    <p className="text-grey">Inc. © 2025 Spinnogvinn. Alle rettigheter reservert.</p>
                     </Col>
                 </Row>
             </Container>
