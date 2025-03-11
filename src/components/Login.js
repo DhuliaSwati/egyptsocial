@@ -72,14 +72,14 @@ const Login = () => {
       <Container className="login-container">
         <Row className="justify-content-center">
           <Col className="login-box">
-            <h2>Login</h2>
+            <h2>Logg inn</h2>
             {error && <p className="text-danger mb-3">{error}</p>}
             
             <Form>
               <Form.Group>
                 <Form.Control
                   type="email"
-                  placeholder="Enter Email"
+                  placeholder="Skriv inn e-post"
                   onChange={(e) => setEmail(e.target.value)}
                   className="border-secondary"
                 />
@@ -88,7 +88,7 @@ const Login = () => {
               <Form.Group>
                 <Form.Control
                   type="password"
-                  placeholder="Enter Password"
+                  placeholder="Skriv inn passord"
                   onChange={(e) => setPassword(e.target.value)}
                   className="border-secondary"
                 />
@@ -99,7 +99,7 @@ const Login = () => {
                 onClick={handleLogin}
                 className="btn"
               >
-                Login
+                Logg inn
               </Button>
 
               <div className="oauth-buttons">
@@ -113,7 +113,7 @@ const Login = () => {
                     alt="Google" 
                     className="icon" 
                   />
-                  Login with Google
+                  Logg inn med Google
                 </Button>
 
                 <Button 
@@ -125,10 +125,10 @@ const Login = () => {
                     alt="Facebook" 
                     className="icon" 
                   />
-                  Login with Facebook
+                  Logg inn med Facebook
                 </Button>
                 <p className="login-link">
-                    Create a new account? <Link to="/signup">signup</Link>
+                    Opprett ny konto? <Link to="/signup">Registrer deg</Link>
                 </p>
               </div>
             </Form>

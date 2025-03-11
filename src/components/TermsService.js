@@ -17,22 +17,22 @@ const TermsService = () => {
           <Row className="justify-content-center">
             <Col md={10} lg={8}>
               <div className="terms-content mt-4 mb-5 p-4">
-                <h1 className="text-center mb-4">Terms of Service</h1>
+                <h1 className="text-center mb-4">Vilkår for tjenesten</h1>
                 <p className="version-info text-center mb-4">
-                  <strong>Version 2.1</strong><br />
-                  Last updated on January 10th, 2025
+                  <strong>Versjon 2.1</strong><br />
+                  Sist oppdatert 10. januar 2025
                 </p>
 
-                <p>Words capitalized in these Terms of Service have the specific meanings given to them in the Definitions section at the end of these Terms of Service.</p>
-                <p>Jackpot Limited ("we", "us", "our", "Jackpot") trading as <strong>Social Casino</strong> operates the website made available at www.socialcasino.com and all subdomains, including the Games, Content, features, tools, and services offered there (the "Website"), and on our associated social media pages (together, the "Platform").</p>
+                <p>Ord med stor forbokstav i disse Vilkårene for tjenesten har de spesifikke betydningene som er gitt i Definisjonsdelen på slutten av disse Vilkårene for tjenesten.</p>
+                <p>Jackpot Limited ("vi", "oss", "vår", "Jackpot") som handler som <strong>Social Casino</strong> driver nettstedet som er tilgjengelig på www.socialcasino.com og alle underdomener, inkludert Spillene, Innholdet, funksjonene, verktøyene og tjenestene som tilbys der ("Nettstedet"), og på våre tilknyttede sosiale mediesider (samlet kalt "Plattformen").</p>
 
-                <p>Please read these Terms of Service carefully, and the incorporated policies in their entirety before registering a User Account or playing any Game. By registering a User Account and confirming your acceptance during the User Account registration process, and/or playing any Game, you confirm that you have read, understood, and agree to be bound by the legal agreement between you and us, consisting of:</p>
+                <p>Vennligst les disse Vilkårene for tjenesten nøye, og de inkorporerte retningslinjene i sin helhet før du registrerer en Brukerkonto eller spiller noe Spill. Ved å registrere en Brukerkonto og bekrefte din aksept under registreringsprosessen for Brukerkonto, og/eller spille noe Spill, bekrefter du at du har lest, forstått og samtykker i å være bundet av den juridiske avtalen mellom deg og oss, som består av:</p>
                 <ol>
-                  <li>these Terms of Service;</li>
-                  <li>the incorporated Privacy Policy and Responsible Social Play Policy ("Our Policies"); and</li>
-                  <li>any other specific terms that may apply to your access and use of the Platform, for instance, terms applying to a specific promotion we run ("Special Terms"),</li>
+                  <li>disse Vilkårene for tjenesten;</li>
+                  <li>de inkorporerte Personvernreglene og Retningslinjer for Ansvarlig Sosialt Spill ("Våre Retningslinjer"); og</li>
+                  <li>eventuelle andre spesifikke vilkår som kan gjelde for din tilgang og bruk av Plattformen, for eksempel vilkår som gjelder for en spesifikk kampanje vi kjører ("Spesielle Vilkår"),</li>
                 </ol>
-                <p>(together, the "Customer Agreement").</p>
+                <p>(samlet kalt "Kundeavtalen").</p>
 
                 <p>If you do not agree with any of the provisions of these Terms of Service, Our Policies, or any Special Terms, and/or you do not want to enter into a legal agreement with us, you must not register a User Account, you must not play any Game, and you must not otherwise access or use the Platform or any part of it.</p>
 
@@ -40,8 +40,8 @@ const TermsService = () => {
                   <p><strong>Please note:</strong></p>
                   <ul>
                     <li>The Platform and Games offer social play only and do not involve any real money gambling. No real money is required to access and use the Platform or play our Games.</li>
-                    <li>THESE TERMS OF SERVICE INCLUDE A PROVISION (CLAUSE 13) WAIVING THE RIGHT TO PURSUE ANY CLASS, GROUP, OR REPRESENTATIVE CLAIM AND REQUIRING YOU TO PURSUE CERTAIN DISPUTES THROUGH INDIVIDUAL ARBITRATION UNLESS YOU OPT-OUT WITHIN THE SPECIFIED TIME FRAME.</li>
-                    <li>Only persons located in <strong>Norway</strong> are permitted to register a User Account on the Platform.</li>
+                    <li>DISSE VILKÅRENE FOR TJENESTEN INKLUDERER EN BESTEMMELSE (PARAGRAF 13) SOM FRASIER RETTEN TIL Å FORFØLGE ETHVERT KLASSE-, GRUPPE- ELLER REPRESENTATIVT KRAV OG KREVER AT DU FORFØLGER VISSE TVISTER GJENNOM INDIVIDUELL VOLDGIFT MED MINDRE DU VELGER Å AVSTÅ INNEN DEN ANGITTE TIDSRAMMEN.</li>
+                    <li>Kun personer som befinner seg i <strong>Norge</strong> har tillatelse til å registrere en Brukerkonto på Plattformen.</li>
                   </ul>
                 </div>
 
@@ -133,12 +133,12 @@ const TermsService = () => {
                 <h3 className="mt-5 mb-3">Governing Law</h3>
                 <p>The Customer Agreement, including your access and use of the Platform and your and our relationship, is governed by and construed in accordance with the laws of <strong>Norway</strong>, without regard to its conflict of laws principles. For the avoidance of doubt, the United Nations Convention on Contracts for the International Sale of Goods does not apply. Subject to clause 13 of these Terms of Service, you and we understand and agree that the courts of <strong>Norway</strong> shall have exclusive jurisdiction to hear and decide any claim, dispute, action, or proceedings that may arise out of or in connection with the Customer Agreement, your access and use of the Platform, and/or your and our relationship.</p>
 
-                <h3 className="mt-5 mb-3">Definitions and Interpretation</h3>
-                <p>In these Terms of Service, the following words have the following meaning, unless the context indicates otherwise:</p>
+                <h3 className="mt-5 mb-3">Definisjoner og Tolkning</h3>
+                <p>I disse Vilkårene for tjenesten har følgende ord følgende betydning, med mindre sammenhengen tilsier noe annet:</p>
                 <ul>
-                  <li><strong>Excluded Jurisdiction</strong>: Any jurisdiction outside of <strong>Norway</strong>.</li>
-                  <li><strong>Social Coin</strong>: The virtual credit that enables you to play the Social Play Games. Social Coins have no monetary value and cannot be redeemed for value or otherwise under any circumstances.</li>
-                  <li><strong>Platform</strong>: The website and associated social media pages operated by Jackpot Limited trading as <strong>Social Casino</strong>.</li>
+                  <li><strong>Ekskludert Jurisdiksjon</strong>: Enhver jurisdiksjon utenfor <strong>Norge</strong>.</li>
+                  <li><strong>Sosiale Mynter</strong>: Den virtuelle kreditten som gjør det mulig for deg å spille Sosiale Spill. Sosiale Mynter har ingen pengeverdi og kan ikke innløses mot verdi eller på annen måte under noen omstendigheter.</li>
+                  <li><strong>Plattform</strong>: Nettstedet og tilknyttede sosiale mediesider som drives av Jackpot Limited som handler som <strong>Social Casino</strong>.</li>
                 </ul>
               </div>
             </Col>

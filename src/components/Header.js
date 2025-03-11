@@ -12,8 +12,8 @@ export default function Header({logo}){
                     <Col md={8}><Link to ="/"><img src={logo} alt="Logo" /></Link></Col>
                     <Col md={4}>
                     <div className="links">
-                        <Link className="linkBtn" to = "/signup">SignUp</Link>
-                        <Link className="linkBtn" to = "/login">Login</Link>
+                        <Link className="linkBtn" to = "/signup">Registrer deg</Link>
+                        <Link className="linkBtn" to = "/login">Logg inn</Link>
                     </div>
                     </Col>
                 </Row>

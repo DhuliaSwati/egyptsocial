@@ -23,17 +23,17 @@ const SignUp = () => {
     const { user, error } = await supabase.auth.signUp({ email, password });
 
     if (error) {
-      // Check if the error message indicates the user already exists
+      // Sjekk om feilmeldingen indikerer at brukeren allerede eksisterer
       if (error.message.includes("already registered") || 
           error.message.includes("already exists") || 
           error.message.includes("User already exists")) {
-        setError("An account with this email already exists.");
+        setError("En konto med denne e-postadressen eksisterer allerede.");
         
-        // Redirect to login page after a short delay
+        // Omdirigerer til innloggingssiden etter en kort forsinkelse
         setTimeout(() => {
           navigate('/login', { 
             state: { 
-              message: "This email is already registered. Please login instead." 
+              message: "Denne e-postadressen er allerede registrert. Vennligst logg inn i stedet." 
             } 
           });
         }, 2000);
@@ -41,12 +41,12 @@ const SignUp = () => {
         setError(error.message);
       }
     } else {
-      setSuccess("Signup successful! Redirecting to game...");
+      setSuccess("Registrering vellykket! Omdirigerer til spill...");
       
-      // Redirect to game page after a short delay
+      // Omdirigerer til spillsiden etter en kort forsinkelse
       setTimeout(() => {
         navigate('/game');
-      }, 2000); // 2-second delay to show the success message
+      }, 2000); // 2-sekunders forsinkelse for å vise suksessmeldingen
     }
   };
 
@@ -65,7 +65,7 @@ const SignUp = () => {
     <Container className="signup-container">
       <Row className="justify-content-center">
         <Col className="signup-box">
-          <h2>Sign Up</h2>
+          <h2>Registrer deg</h2>
           {error && <p className="error-text">{error}</p>}
           {success && <p className="success-text">{success}</p>}
 
@@ -73,7 +73,7 @@ const SignUp = () => {
             <Form.Group controlId="formEmail">
               <Form.Control 
                 type="email" 
-                placeholder="Enter email" 
+                placeholder="Skriv inn e-post" 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -83,7 +83,7 @@ const SignUp = () => {
             <Form.Group controlId="formPassword">
               <Form.Control 
                 type="password" 
-                placeholder="Enter password" 
+                placeholder="Skriv inn passord" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
@@ -91,21 +91,21 @@ const SignUp = () => {
             </Form.Group>
 
             <Button variant="primary" type="submit" className="signup-btn">
-              Sign Up
+              Registrer deg
             </Button>
           </Form>
 
           <div className="oauth-buttons">
             <Button variant="light" onClick={() => handleOAuthSignup("google")}>
-              <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google" className="icon" /> Sign Up with Google
+              <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google" className="icon" /> Registrer deg med Google
             </Button>
             <Button variant="primary" onClick={() => handleOAuthSignup("facebook")}>
-              <img src="https://www.svgrepo.com/show/157810/facebook.svg" alt="Facebook" className="icon" /> Sign Up with Facebook
+              <img src="https://www.svgrepo.com/show/157810/facebook.svg" alt="Facebook" className="icon" /> Registrer deg med Facebook
             </Button>
           </div>
 
           <p className="login-link">
-            Already have an account? <Link to="/login">Login</Link>
+            Har du allerede en konto? <Link to="/login">Logg inn</Link>
           </p>
         </Col>
       </Row>

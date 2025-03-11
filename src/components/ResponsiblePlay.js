@@ -15,86 +15,86 @@ const ResponsiblePlay = () => {
           <Row className="justify-content-center">
             <Col md={10} lg={8}>
               <div className="terms-content mt-4 mb-5 p-4">
-                <h1 className="text-center mb-4">Responsible Social Play Policy</h1>
+                <h1 className="text-center mb-4">Retningslinjer for Ansvarlig Sosialt Spill</h1>
                 <p className="version-info text-center mb-4">
-                  <strong>Effective as of 1st June 2023</strong>
+                  <strong>Gjelder fra 1. juni 2023</strong>
                 </p>
 
-                <p>The <strong>Social Casino</strong> platform and <strong>Jackpot Limited</strong> are committed to the protection of our players and promoting responsible social gameplay as a policy of customer care and social responsibility. We recognize that our games are fun and, like many other forms of entertainment, should be consumed in a responsible manner.</p>
+                <p><strong>Social Casino</strong>-plattformen og <strong>Jackpot Limited</strong> er forpliktet til å beskytte våre spillere og fremme ansvarlig sosialt spill som en del av vår kundeservice og sosiale ansvar. Vi erkjenner at spillene våre er underholdende og, som mange andre former for underholdning, bør brukes på en ansvarlig måte.</p>
 
-                <h3 className="mt-5 mb-3">GENERAL</h3>
-                <p>This Responsible Social Gameplay Policy ("RSGP") describes the various tools and resources available to our players to ensure responsible gameplay.</p>
-                <p>We reserve the right to modify our policies at any time, with such changes becoming effective immediately.</p>
-                <p>The RSGP is integrated into the Terms of Service and is a part of such Terms of Service as if fully restated therein.</p>
+                <h3 className="mt-5 mb-3">GENERELT</h3>
+                <p>Disse retningslinjene for ansvarlig sosialt spill ("RSGP") beskriver de ulike verktøyene og ressursene som er tilgjengelige for våre spillere for å sikre ansvarlig spilling.</p>
+                <p>Vi forbeholder oss retten til å endre våre retningslinjer når som helst, og endringene trer i kraft umiddelbart.</p>
+                <p>RSGP er integrert i Tjenestevilkårene og er en del av disse Tjenestevilkårene som om de var fullstendig gjengitt her.</p>
 
-                <h3 className="mt-5 mb-3">RSGP CONTROL TOOLS</h3>
+                <h3 className="mt-5 mb-3">RSGP KONTROLLVERKTØY</h3>
                 <ul>
-                  <li><strong>Active Reminders</strong></li>
-                  <li><strong>Account History</strong></li>
-                  <li><strong>Various Self-Limitation Options</strong></li>
+                  <li><strong>Aktive Påminnelser</strong></li>
+                  <li><strong>Kontohistorikk</strong></li>
+                  <li><strong>Ulike Selvbegrensningsalternativer</strong></li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">RSG CONTROL TOOLS ACCESS</h3>
-                <p>The access control tools described below are available if your gameplay may have become, or is at risk of becoming, problematic. You may take advantage of these tools by contacting us:</p>
+                <h3 className="mt-5 mb-3">TILGANG TIL RSG-KONTROLLVERKTØY</h3>
+                <p>Kontrollverktøyene beskrevet nedenfor er tilgjengelige hvis spillingen din kan ha blitt, eller står i fare for å bli, problematisk. Du kan benytte deg av disse verktøyene ved å kontakte oss:</p>
                 <ul>
-                  <li><strong>Taking a Break</strong>: Please contact us with your request and for options.</li>
-                  <li><strong>Self-Exclusion</strong>: Please contact us with your request and for options.</li>
-                  <li><strong>Permanent Closure</strong>: Please contact us with your request.</li>
+                  <li><strong>Ta en Pause</strong>: Vennligst kontakt oss med din forespørsel og for alternativer.</li>
+                  <li><strong>Selvekskludering</strong>: Vennligst kontakt oss med din forespørsel og for alternativer.</li>
+                  <li><strong>Permanent Stenging</strong>: Vennligst kontakt oss med din forespørsel.</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">SELF-EVALUATION AND ASSESSMENT</h3>
-                <p>If you suspect that your video game play or the play of someone else may be problematic, we encourage you to take an assessment. One such assessment is available at <a href="https://www.video-game-addiction-test.com" target="_blank" rel="noreferrer">Video Game Addiction Test for Gamers</a>.</p>
+                <h3 className="mt-5 mb-3">SELVEVALUERING OG VURDERING</h3>
+                <p>Hvis du mistenker at din eller andres videospilling kan være problematisk, oppfordrer vi deg til å ta en vurderingstest. En slik test er tilgjengelig på <a href="https://www.video-game-addiction-test.com" target="_blank" rel="noreferrer">Spillavhengighetstest for Spillere</a>.</p>
 
-                <h3 className="mt-5 mb-3">SUPPORT</h3>
-                <p>Please consider one of the following resources if your gaming activities have had a negative impact on your mental and emotional health, as well as a detrimental financial impact. We are not affiliated with any of these organizations:</p>
+                <h3 className="mt-5 mb-3">STØTTE</h3>
+                <p>Vennligst vurder en av følgende ressurser hvis spillaktivitetene dine har hatt en negativ innvirkning på din mentale og emosjonelle helse, samt økonomiske konsekvenser. Vi er ikke tilknyttet noen av disse organisasjonene:</p>
                 <ul>
-                  <li><strong>Gaming Addicts Anonymous (GAA)</strong>: A fellowship of people who support each other in recovering from the problems resulting from excessive game playing.</li>
-                  <li><strong>Financial Counseling Association of Norway (FCAN)</strong>: A professional association of financial counseling agencies that assist consumers with financial counseling services of all kinds, as well as debt management plans for the repayment of unsecured debts.</li>
-                  <li><strong>National Foundation for Credit Counseling (NFCC)</strong>: One of the oldest networks of non-profit financial counseling agencies. The NFCC helps people to defeat their debt and look forward with confidence.</li>
+                  <li><strong>Spillavhengige Anonyme (GAA)</strong>: Et fellesskap av mennesker som støtter hverandre i å komme seg over problemer som følge av overdreven spilling.</li>
+                  <li><strong>Finansrådgivningsforeningen i Norge (FCAN)</strong>: En profesjonell forening av finansrådgivningsbyråer som hjelper forbrukere med finansiell rådgivning av alle slag, samt gjeldsordninger for tilbakebetaling av usikret gjeld.</li>
+                  <li><strong>Nasjonal Stiftelse for Kredittråd (NFCC)</strong>: Et av de eldste nettverkene av ideelle finansrådgivningsbyråer. NFCC hjelper mennesker med å overvinne gjeld og se fremover med tillit.</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">EDUCATIONAL RESOURCES</h3>
+                <h3 className="mt-5 mb-3">OPPLÆRINGSRESSURSER</h3>
                 
-                <h4 className="mb-3">Principles of Gameplay:</h4>
+                <h4 className="mb-3">Spillprinsipper:</h4>
                 <ul>
-                  <li><strong>Randomness</strong>: Winners of games are determined at random.</li>
-                  <li><strong>Outcomes cannot be predicted by past results or outcomes.</strong></li>
+                  <li><strong>Tilfeldighet</strong>: Vinnere av spill blir bestemt tilfeldig.</li>
+                  <li><strong>Utfall kan ikke forutsies av tidligere resultater.</strong></li>
                 </ul>
 
-                <h4 className="mb-3">Common Misconceptions:</h4>
+                <h4 className="mb-3">Vanlige Misforståelser:</h4>
                 <ul>
-                  <li>Thinking "I'm due for a win" is a fallacy since all outcomes in games of chance are random and cannot be predicted.</li>
-                  <li>Believing that a lucky charm or pre-game ritual affects your chances of winning is a misconception, as these factors have no impact on the random outcomes of the game.</li>
-                  <li>Assuming that playing a game for a longer time increases your chances of winning is incorrect, as the probability of winning remains the same for each game round regardless of how much time is spent playing.</li>
+                  <li>Å tro at "jeg er due for en seier" er en feilslutning siden alle utfall i tilfeldighetsspill er tilfeldige og ikke kan forutsies.</li>
+                  <li>Å tro at en lykkebringer eller før-spill ritual påvirker dine vinnersjanser er en misforståelse, da disse faktorene ikke har noen innvirkning på spillets tilfeldige utfall.</li>
+                  <li>Å anta at å spille et spill over lengre tid øker dine vinnersjanser er feil, da sannsynligheten for å vinne forblir den samme for hver spillrunde uavhengig av hvor mye tid som brukes på å spille.</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">TIPS FOR SAFE GAMEPLAY:</h3>
+                <h3 className="mt-5 mb-3">TIPS FOR TRYGT SPILL:</h3>
                 <ul>
-                  <li>Avoid playing games when you are angry, sad, or otherwise emotional.</li>
-                  <li>Take frequent and regular breaks during gameplay sessions.</li>
-                  <li>Do not play games when you are under the influence of drugs or alcohol.</li>
-                  <li>Video games are just one form of entertainment, and there are other options available.</li>
-                  <li>If you do make an optional purchase, make sure it is with money that you can afford to spend.</li>
-                  <li>Set a time for play.</li>
-                  <li>Understand how the games work and that winners are random.</li>
-                  <li>Do not allow game playing to impact your employment, relationships, health, or social obligations or other commitments.</li>
+                  <li>Unngå å spille når du er sint, trist eller følelsesmessig påvirket.</li>
+                  <li>Ta hyppige og regelmessige pauser under spilløktene.</li>
+                  <li>Ikke spill når du er påvirket av rusmidler eller alkohol.</li>
+                  <li>Videospill er bare én form for underholdning, og det finnes andre alternativer.</li>
+                  <li>Hvis du gjør et valgfritt kjøp, sørg for at det er med penger du har råd til å bruke.</li>
+                  <li>Sett en tidsramme for spilling.</li>
+                  <li>Forstå hvordan spillene fungerer og at vinnere er tilfeldige.</li>
+                  <li>Ikke la spilling påvirke din jobb, relasjoner, helse eller sosiale forpliktelser eller andre forpliktelser.</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">PROTECTING PLAYERS</h3>
-                <p>We do not recommend playing if you:</p>
+                <h3 className="mt-5 mb-3">BESKYTTELSE AV SPILLERE</h3>
+                <p>Vi anbefaler ikke spilling hvis du:</p>
                 <ul>
-                  <li>Have a history of addiction or dependency, or are currently undergoing treatment for such conditions.</li>
-                  <li>Are under the influence of substances that may impair your judgment.</li>
-                  <li>Are experiencing financial issues or stressful or traumatic life events.</li>
-                  <li>Do not understand the rules and gameplay mechanics of the games.</li>
-                  <li>Have any mental health issues (actual or suspected), mental impairments, or physical brain trauma.</li>
+                  <li>Har en historie med avhengighet eller avhengighetsproblemer, eller for tiden er under behandling for slike tilstander.</li>
+                  <li>Er påvirket av stoffer som kan svekke dømmekraften din.</li>
+                  <li>Opplever økonomiske problemer eller stressende eller traumatiske livshendelser.</li>
+                  <li>Ikke forstår reglene og spillmekanikkene i spillene.</li>
+                  <li>Har psykiske helseproblemer (faktiske eller mistenkte), mentale svekkelser eller fysisk hjerneskade.</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">PROTECTION OF MINORS</h3>
-                <p>We have various system and identity checks in place to prevent underage gameplay. If you share your devices with minors, we recommend restricting their access to our platform using various internet blocking and monitoring software.</p>
+                <h3 className="mt-5 mb-3">BESKYTTELSE AV MINDREÅRIGE</h3>
+                <p>Vi har ulike system- og identitetskontroller på plass for å forhindre mindreårig spilling. Hvis du deler enhetene dine med mindreårige, anbefaler vi å begrense deres tilgang til vår plattform ved hjelp av ulik internettblokkering og overvåkingsprogramvare.</p>
 
-                <h3 className="mt-5 mb-3">GOVERNING LAW</h3>
-                <p>This Responsible Social Gameplay Policy is governed by the laws of <strong>Norway</strong>. Any disputes arising from or related to this policy shall be resolved in accordance with Norwegian law.</p>
+                <h3 className="mt-5 mb-3">GJELDENDE LOV</h3>
+                <p>Disse retningslinjene for ansvarlig sosialt spill er underlagt norsk lov. Eventuelle tvister som oppstår fra eller er relatert til disse retningslinjene skal løses i henhold til norsk lov.</p>
               </div>
             </Col>
           </Row>

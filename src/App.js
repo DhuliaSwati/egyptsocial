@@ -23,9 +23,9 @@ function App() {
       <Container>
       <Row>
         <Col className="outerSection">
-          <h1 className="h1Heading">#1Social Casino</h1>
-          <p className="subPara">Get Ready To Win Big</p>
-          <Link to="/signup" className="linkBtn">Join Now</Link>
+          <h1 className="h1Heading">#1 Sosialt Casino</h1>
+          <p className="subPara">Gjør deg klar til å vinne stort</p>
+          <Link to="/signup" className="linkBtn">Bli med nå</Link>
         </Col>
       </Row>
       </Container>
@@ -34,26 +34,26 @@ function App() {
       <div className="section">
         <div className="outerSection">
           <div className="sectionHead">
-            <img src={star} alt="star" />
-          <h2 className="h2Heading">TOP <span className="text-yellow">FREE-TO-PLAY </span>Casino STYLE GAMES</h2>
-          <img src={star} alt="star" />
+            <img src={star} alt="stjerne" />
+          <h2 className="h2Heading">TOPP <span className="text-yellow">GRATIS-Å-SPILLE </span>Casino-STIL SPILL</h2>
+            <img src={star} alt="stjerne" />
           </div>
           <div className="imagesSection">
-            <img src={img1} alt="Game1" />
-            <img src={img2} alt="Game2" />
-            <img src={img3} alt="Game3" />
-            <img src={img4} alt="Game4" />
+            <img src={img1} alt="Spill1" />
+            <img src={img2} alt="Spill2" />
+            <img src={img3} alt="Spill3" />
+            <img src={img4} alt="Spill4" />
           </div>
-          <Link to="/signup" className="sectionBtn">SignUp To Play For Free</Link>
+          <Link to="/signup" className="sectionBtn">Registrer deg for å spille gratis</Link>
         </div>
       {/* Third Fold */}
       <div className="outerSection">
-      <h2 className="h2Heading">No Purchase</h2>
+      <h2 className="h2Heading">Ingen kjøp</h2>
       </div>
         <div className="outerSection">
-          <h2 className="h2Heading">It's Always Free To Play</h2>
-            <img src={img5} alt="Find out more" />
-          <Link to="/signup" className="sectionBtn">Find Out More</Link>
+          <h2 className="h2Heading">Det er alltid gratis å spille</h2>
+            <img src={img5} alt="Finn ut mer" />
+          <Link to="/signup" className="sectionBtn">Finn ut mer</Link>
         </div>
       </div>
       <Footer />

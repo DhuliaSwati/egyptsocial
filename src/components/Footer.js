@@ -18,11 +18,11 @@ export default function Footer(){
             <Container className="footerTop py-5">
                 <Row>
                     <Col md={6}>
-                        <h3 className="h3Heading text-yellow">Making sure everyone plays responsibly</h3>
-                        <p className="footerSub">Find out more on our dedicated Responsible Social Play page.</p>
+                        <h3 className="h3Heading text-yellow">Sikrer at alle spiller ansvarlig</h3>
+                        <p className="footerSub">Finn ut mer på vår dedikerte side for Ansvarlig Sosialt Spill.</p>
                     </Col>
                     <Col md={5}>
-                        <p className="highlight">GO TO RESPONSIBLE SOCIAL GAMING</p>
+                        <p className="highlight">GÅ TIL ANSVARLIG SOSIALT SPILL</p>
                     </Col>
                     <Col md={1}>
                         <img src={plus} alt="18+" />
@@ -32,21 +32,21 @@ export default function Footer(){
             <Container className="footerMiddle pb-5">
                 <Row>
                     <Col md={7}>
-                        <p><span className="text-grey">You are aware and understand that you are providing information to Social Casino. The sole use of this information will be to manage this promotion.</span>
-NO PURCHASE NECESSARY<span className="text-grey"> to participate in Sweepstakes. </span>SWEEPSTAKES ARE
-VOID WHERE PROHIBITED BY LAW.<span className="text-grey"> For more information about sweepstakes
-rules, please refer to the Sweeps Policy. Copyright © 2025 Jimmy Limited.
-All rights reserved.</span></p>
+                        <p><span className="text-grey">Du er klar over og forstår at du gir informasjon til Social Casino. Den eneste bruken av denne informasjonen vil være å administrere denne kampanjen.</span>
+INGEN KJØP NØDVENDIG<span className="text-grey"> for å delta i konkurranser. </span>KONKURRANSER ER
+UGYLDIGE DER LOVEN FORBYR DET.<span className="text-grey"> For mer informasjon om konkurranseregler,
+vennligst se Konkurransepolitikken. Opphavsrett © 2025 Jimmy Limited.
+Alle rettigheter reservert.</span></p>
                     </Col>
                     <Col md={3}>
                         <ul>
-                            <Link to="/terms"><li>Terms of Service</li></Link>
-                            <Link to="/responsible-play"><li>Responsible Social Play</li></Link>
+                            <Link to="/terms"><li>Tjenestevilkår</li></Link>
+                            <Link to="/responsible-play"><li>Ansvarlig Sosialt Spill</li></Link>
                         </ul>
                     </Col>
                     <Col md={2}>
                         <ul>
-                            <Link to="/privacy-policy"><li>Privacy Policy</li></Link>
+                            <Link to="/privacy-policy"><li>Personvernregler</li></Link>
                         </ul>
                     </Col>
                 </Row>
@@ -54,7 +54,7 @@ All rights reserved.</span></p>
             <Container className="footerBottom">
                 <Row>
                     <Col className="text-center">
-                    <p className="text-grey">Inc. © 2025 Social Casino. All rights reserved.</p>
+                    <p className="text-grey">Inc. © 2025 Social Casino. Alle rettigheter reservert.</p>
                     </Col>
                 </Row>
             </Container>
