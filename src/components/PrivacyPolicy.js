@@ -21,11 +21,11 @@ const PrivacyPolicy = () => {
                   Sist oppdatert 2. juni 2024
                 </p>
 
-                <p><strong>meistersocial</strong> (vi, oss, vår) som driver som <strong>meistersocial</strong> opererer det sosiale tilbudet som er tilgjengelig via <a href="http://www.spinnogvinn.com" target="_blank" rel="noreferrer">www.spinnogvinn.com</a> og alle underdomener, inkludert spillene, innholdet, funksjonene, verktøyene og tjenestene som tilbys der og på våre tilknyttede sosiale mediesider.</p>
+                <p><strong>meistersocial</strong> (vi, oss, vår) som driver som <strong>meistersocial</strong> opererer det sosiale tilbudet som er tilgjengelig via <a href="http://www.meistersocial.com" target="_blank" rel="noreferrer">www.meistersocial.com</a> og alle underdomener, inkludert spillene, innholdet, funksjonene, verktøyene og tjenestene som tilbys der og på våre tilknyttede sosiale mediesider.</p>
 
                 <p>Vi tar våre personvern- og sikkerhetsforpliktelser når det gjelder din personlige informasjon svært alvorlig og er forpliktet til å overholde alle gjeldende personvernlover, inkludert <strong>General Data Protection Regulation (GDPR)</strong> og andre relevante norske personvernlover.</p>
 
-                <p>Denne personvernerklæringen beskriver hvilke typer personopplysninger vi samler inn om brukere av vår plattform (Brukere, du, din), hvordan vi bruker dem, hvem vi deler dem med, hvordan vi holder dem trygge, og hvordan du kan kontrollere dem. Vennligst gjennomgå denne personvernerklæringen nøye og send oss en e-post til <a href="mailto:dataprivacy@spinnogvinn.com">dataprivacy@spinnogvinn.com</a> hvis du har spørsmål.</p>
+                <p>Denne personvernerklæringen beskriver hvilke typer personopplysninger vi samler inn om brukere av vår plattform (Brukere, du, din), hvordan vi bruker dem, hvem vi deler dem med, hvordan vi holder dem trygge, og hvordan du kan kontrollere dem. Vennligst gjennomgå denne personvernerklæringen nøye og send oss en e-post til <a href="mailto:dataprivacy@meistersocial.com">dataprivacy@meistersocial.com</a> hvis du har spørsmål.</p>
 
                 <p>Denne personvernerklæringen bør leses sammen med, og danner en del av, <strong>meistersocial Terms of Service</strong>. Ethvert stortavledd begrep i denne personvernerklæringen som ikke er definert her har den betydningen som er gitt i våre vilkår.</p>
 
@@ -106,7 +106,7 @@ const PrivacyPolicy = () => {
 
                 <h3 className="mt-5 mb-3">Dine rettigheter angående personopplysninger</h3>
 
-                <p>I henhold til loven kan du ha visse rettigheter angående personopplysningene vi samler inn og lagrer. Hvis du ønsker å utøve noen av disse rettighetene, vennligst kontakt oss på <a href="mailto:dataprivacy@spinnogvinn.com">dataprivacy@spinnogvinn.com</a>.</p>
+                <p>I henhold til loven kan du ha visse rettigheter angående personopplysningene vi samler inn og lagrer. Hvis du ønsker å utøve noen av disse rettighetene, vennligst kontakt oss på <a href="mailto:dataprivacy@meistersocial.com">dataprivacy@meistersocial.com</a>.</p>
 
                 <p>Du har rett til å:</p>
                 <ul>
@@ -117,7 +117,7 @@ const PrivacyPolicy = () => {
 
                 <h3 className="mt-5 mb-3">Kontakt oss</h3>
 
-                <p>Hvis du har spørsmål om dine personopplysninger, hvordan vi samler inn eller bruker dem, eller du ønsker å utøve dine rettigheter med hensyn til personopplysninger, vennligst kontakt vår personvernansvarlig via e-post på <a href="mailto:dataprivacy@spinnogvinn.com">dataprivacy@spinnogvinn.com</a>.</p>
+                <p>Hvis du har spørsmål om dine personopplysninger, hvordan vi samler inn eller bruker dem, eller du ønsker å utøve dine rettigheter med hensyn til personopplysninger, vennligst kontakt vår personvernansvarlig via e-post på <a href="mailto:dataprivacy@meistersocial.com">dataprivacy@meistersocial.com</a>.</p>
               </div>
             </Col>
           </Row>
