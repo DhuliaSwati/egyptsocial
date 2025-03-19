@@ -21,13 +21,13 @@ const PrivacyPolicy = () => {
                   Sist oppdatert 2. juni 2024
                 </p>
 
-                <p><strong>Spinnogvinn</strong> (vi, oss, vår) som driver som <strong>Spinnogvinn</strong> opererer det sosiale tilbudet som er tilgjengelig via <a href="http://www.spinnogvinn.com" target="_blank" rel="noreferrer">www.spinnogvinn.com</a> og alle underdomener, inkludert spillene, innholdet, funksjonene, verktøyene og tjenestene som tilbys der og på våre tilknyttede sosiale mediesider.</p>
+                <p><strong>meistersocial</strong> (vi, oss, vår) som driver som <strong>meistersocial</strong> opererer det sosiale tilbudet som er tilgjengelig via <a href="http://www.spinnogvinn.com" target="_blank" rel="noreferrer">www.spinnogvinn.com</a> og alle underdomener, inkludert spillene, innholdet, funksjonene, verktøyene og tjenestene som tilbys der og på våre tilknyttede sosiale mediesider.</p>
 
                 <p>Vi tar våre personvern- og sikkerhetsforpliktelser når det gjelder din personlige informasjon svært alvorlig og er forpliktet til å overholde alle gjeldende personvernlover, inkludert <strong>General Data Protection Regulation (GDPR)</strong> og andre relevante norske personvernlover.</p>
 
                 <p>Denne personvernerklæringen beskriver hvilke typer personopplysninger vi samler inn om brukere av vår plattform (Brukere, du, din), hvordan vi bruker dem, hvem vi deler dem med, hvordan vi holder dem trygge, og hvordan du kan kontrollere dem. Vennligst gjennomgå denne personvernerklæringen nøye og send oss en e-post til <a href="mailto:dataprivacy@spinnogvinn.com">dataprivacy@spinnogvinn.com</a> hvis du har spørsmål.</p>
 
-                <p>Denne personvernerklæringen bør leses sammen med, og danner en del av, <strong>Spinnogvinn Terms of Service</strong>. Ethvert stortavledd begrep i denne personvernerklæringen som ikke er definert her har den betydningen som er gitt i våre vilkår.</p>
+                <p>Denne personvernerklæringen bør leses sammen med, og danner en del av, <strong>meistersocial Terms of Service</strong>. Ethvert stortavledd begrep i denne personvernerklæringen som ikke er definert her har den betydningen som er gitt i våre vilkår.</p>
 
                 <p>I denne personvernerklæringen er termen <strong>Personlige opplysninger</strong> enhver informasjon om deg, enten den er sann eller ikke, som kan brukes til å identifisere deg eller gjøre deg gjenkjennbart.</p>
 

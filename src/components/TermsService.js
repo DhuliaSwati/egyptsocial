@@ -24,7 +24,7 @@ const TermsService = () => {
                 </p>
 
                 <p>Ord med stor forbokstav i disse Vilkårene for tjenesten har de spesifikke betydningene som er gitt i Definisjonsdelen på slutten av disse Vilkårene for tjenesten.</p>
-                <p>Spinnogvinn("vi", "oss", "vår", "Jackpot") som handler som <strong>Spinnogvinn</strong> driver nettstedet som er tilgjengelig på www.socialcasino.com og alle underdomener, inkludert Spillene, Innholdet, funksjonene, verktøyene og tjenestene som tilbys der ("Nettstedet"), og på våre tilknyttede sosiale mediesider (samlet kalt "Plattformen").</p>
+                <p>meistersocial("vi", "oss", "vår", "Jackpot") som handler som <strong>meistersocial</strong> driver nettstedet som er tilgjengelig på www.socialcasino.com og alle underdomener, inkludert Spillene, Innholdet, funksjonene, verktøyene og tjenestene som tilbys der ("Nettstedet"), og på våre tilknyttede sosiale mediesider (samlet kalt "Plattformen").</p>
 
                 <p>Vennligst les disse Vilkårene for tjenesten nøye, og de inkorporerte retningslinjene i sin helhet før du registrerer en Brukerkonto eller spiller noe Spill. Ved å registrere en Brukerkonto og bekrefte din aksept under registreringsprosessen for Brukerkonto, og/eller spille noe Spill, bekrefter du at du har lest, forstått og samtykker i å være bundet av den juridiske avtalen mellom deg og oss, som består av:</p>
                 <ol>
@@ -138,7 +138,7 @@ const TermsService = () => {
                 <ul>
                   <li><strong>Ekskludert Jurisdiksjon</strong>: Enhver jurisdiksjon utenfor <strong>Norge</strong>.</li>
                   <li><strong>Sosiale Mynter</strong>: Den virtuelle kreditten som gjør det mulig for deg å spille Sosiale Spill. Sosiale Mynter har ingen pengeverdi og kan ikke innløses mot verdi eller på annen måte under noen omstendigheter.</li>
-                  <li><strong>Plattform</strong>: Nettstedet og tilknyttede sosiale mediesider som drives av Spinnogvinn  som handler som <strong>Spinnogvinn</strong>.</li>
+                  <li><strong>Plattform</strong>: Nettstedet og tilknyttede sosiale mediesider som drives av meistersocial som handler som <strong>meistersocial</strong>.</li>
                 </ul>
               </div>
             </Col>
