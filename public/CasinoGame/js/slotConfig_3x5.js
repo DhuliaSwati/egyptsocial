@@ -1267,7 +1267,7 @@ var slotConfig_3x5 = {
         popup.addButton('exitButton','exit_button', 'exit_button_hover', false, 228, -315  + yOffset);
 
         popup['supportButton'].clickEvent.add(()=>{popup.scene.soundController.playClip('button_click', false);}, popup);
-        popup['supportButton'].clickEvent.add(()=>{window.open("http://www.mkeystudio.com"); }, popup);
+        popup['supportButton'].clickEvent.add(()=>{window.open("https://www.meistersocial.com/contact-us"); }, popup);
         
         popup['exitButton'].clickEvent.add(()=>{popup.scene.soundController.playClip('button_click', false);}, popup);
         popup['exitButton'].clickEvent.add(()=>{popup.scene.guiController.closePopUp(popup);});
