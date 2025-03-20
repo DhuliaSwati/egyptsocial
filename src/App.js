@@ -24,7 +24,7 @@ function App() {
       <Row>
         <Col className="outerSection">
           <h1 className="h1Heading">#1Sosialt Casino</h1>
-          <p className="subPara">Gjør deg klar til å vinne stort</p>
+          <p className="subPara">Gjør deg klar til å spille gratis</p>
           <Link to="/signup" className="linkBtn">Bli med nå</Link>
         </Col>
       </Row>
