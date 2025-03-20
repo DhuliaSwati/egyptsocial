@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Header from "./Header";
 import Footer from "./Footer";
 import "./Policy.css";
-import logo from "../assets/Logo-white.png";
+import logo from "../assets/Logo.png";
 
 
 const TermsService = () => {

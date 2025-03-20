@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Header from "./Header";
 import Footer from "./Footer";
-import logo from "../assets/Logo-white.png";
+import logo from "../assets/Logo.png";
 
 const PrivacyPolicy = () => {
   return (
