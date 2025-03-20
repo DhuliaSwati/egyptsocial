@@ -40,9 +40,6 @@ function App() {
           </div>
           <div className="imagesSection">
             <img src={img1} alt="Spill1" />
-            <img src={img2} alt="Spill2" />
-            <img src={img3} alt="Spill3" />
-            <img src={img4} alt="Spill4" />
           </div>
           <Link to="/signup" className="sectionBtn">Registrer deg for å spille gratis</Link>
         </div>
