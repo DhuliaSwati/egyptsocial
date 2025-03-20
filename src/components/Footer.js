@@ -49,43 +49,49 @@ export default function Footer(){
                 </Row>
             </Container>
 
-            <Container className="footerTop py-5">
+            <Container className="footerTop py-4">
                 <Row>
-                    <Col md={6}>
+                    <Col xs={12} md={6} className="mb-3 mb-md-0">
                         <h3 className="h3Heading text-yellow">Sikrer at alle spiller ansvarlig</h3>
                         <p className="footerSub">Finn ut mer på vår dedikerte side for Ansvarlig Sosialt Spill.</p>
                     </Col>
-                    <Col md={5}>
-                        <p className="highlight"><Link to="/responsible-play">GÅ TIL ANSVARLIG SOSIALT SPILL</Link></p>
+                    <Col xs={10} md={5} className="mb-3 mb-md-0">
+                        <p className="highlight mobile-full-width">
+                            <Link to="/responsible-play">GÅ TIL ANSVARLIG SOSIALT SPILL</Link>
+                        </p>
                     </Col>
-                    <Col md={1}>
-                        <img src={plus} alt="18+" />
+                    <Col xs={2} md={1} className="text-right">
+                        <img src={plus} alt="18+" className="age-restriction" />
                     </Col>
                 </Row>
             </Container>
-            <Container className="footerMiddle pb-5">
+            
+            <Container className="footerMiddle pb-4">
                 <Row>
-                    <Col md={7}>
-                        <p>Dette er et gratis sosialt kasino med fokus på underholdning. Det er verken ekte penger eller gevinster involvert. Ansvarsfraskrivelse: Nettstedet er utelukkende laget for gratis underholdning. Alle spillene på siden vår er egenutviklede og designet kun for underholdningsformål. Spillene er beregnet for voksne over 18 år. Våre sosiale kasinospill innebærer ingen bruk av ekte penger og gir heller ikke mulighet for å vinne pengepremier. Fremgang i spillene våre er ikke en indikasjon på fremgang i pengespill med ekte penger. Vi oppfordrer til ansvarlig spill og understreker at våre spill kun er ment som en form for underholdning.</p>
+                    <Col xs={12} md={7} className="mb-4 mb-md-0">
+                        <p className="disclaimer-text">Dette er et gratis sosialt kasino med fokus på underholdning. Det er verken ekte penger eller gevinster involvert. Ansvarsfraskrivelse: Nettstedet er utelukkende laget for gratis underholdning. Alle spillene på siden vår er egenutviklede og designet kun for underholdningsformål. Spillene er beregnet for voksne over 18 år. Våre sosiale kasinospill innebærer ingen bruk av ekte penger og gir heller ikke mulighet for å vinne pengepremier. Fremgang i spillene våre er ikke en indikasjon på fremgang i pengespill med ekte penger. Vi oppfordrer til ansvarlig spill og understreker at våre spill kun er ment som en form for underholdning.</p>
                     </Col>
-                    <Col md={3}>
-                        <ul>
+                    
+                    <Col xs={6} md={3} className="footer-links-col">
+                        <ul className="footer-links">
                             <Link to="/terms"><li>Tjenestevilkår</li></Link>
                             <Link to="/responsible-play"><li>Ansvarlig Sosialt Spill</li></Link>
                         </ul>
                     </Col>
-                    <Col md={2}>
-                        <ul>
+                    
+                    <Col xs={6} md={2} className="footer-links-col">
+                        <ul className="footer-links">
                             <Link to="/privacy-policy"><li>Personvernregler</li></Link>
                             <Link to="/contact-us"><li>Kontakt oss</li></Link>
                         </ul>
                     </Col>
                 </Row>
             </Container>
-            <Container className="footerBottom">
+            
+            <Container className="footerBottom py-3">
                 <Row>
                     <Col className="text-center">
-                    <p className="text-grey">Inc. © 2025 meistersocial. Alle rettigheter reservert.</p>
+                        <p className="text-grey copyright">Inc. © 2025 meistersocial. Alle rettigheter reservert.</p>
                     </Col>
                 </Row>
             </Container>

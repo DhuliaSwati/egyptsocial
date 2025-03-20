@@ -43,7 +43,7 @@ const ResponsiblePlay = () => {
                 </ul>
 
                 <h3 className="mt-5 mb-3">SELVEVALUERING OG VURDERING</h3>
-                <p>Hvis du mistenker at din eller andres videospilling kan være problematisk, oppfordrer vi deg til å ta en vurderingstest. En slik test er tilgjengelig på <a href="https://www.video-game-addiction-test.com" target="_blank" rel="noreferrer">Spillavhengighetstest for Spillere</a>.</p>
+                <p>Hvis du mistenker at din eller andres videospilling kan være problematisk, oppfordrer vi deg til å ta en vurderingstest. En slik test er tilgjengelig på Spillavhengighetstest for Spillere.</p>
 
                 <h3 className="mt-5 mb-3">STØTTE</h3>
                 <p>Vennligst vurder en av følgende ressurser hvis spillaktivitetene dine har hatt en negativ innvirkning på din mentale og emosjonelle helse, samt økonomiske konsekvenser. Vi er ikke tilknyttet noen av disse organisasjonene:</p>

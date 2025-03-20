@@ -7,9 +7,6 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import star from "./assets/star.png";
 import img1 from "./assets/img1.png";
-import img2 from "./assets/img2.png";
-import img3 from "./assets/img3.png";
-import img4 from "./assets/img4.png";
 import img5 from "./assets/img5.png";
 import logo from "./assets/Logo.png";
 
