@@ -47,6 +47,7 @@ Alle rettigheter reservert.</span></p>
                     <Col md={2}>
                         <ul>
                             <Link to="/privacy-policy"><li>Personvernregler</li></Link>
+                            <Link to="/contact-us"><li>Kontakt oss</li></Link>
                         </ul>
                     </Col>
                 </Row>

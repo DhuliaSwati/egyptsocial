@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import TermsService from './components/TermsService';
 import ResponsiblePlay from './components/ResponsiblePlay';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import ContactUs from "./components/ContactForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
                 <Route path="/terms" element={<TermsService />} />
                 <Route path="/responsible-play" element={<ResponsiblePlay />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/contact-us" element={<ContactUs />} />
             </Routes>
             </BrowserRouter>
   </React.StrictMode>

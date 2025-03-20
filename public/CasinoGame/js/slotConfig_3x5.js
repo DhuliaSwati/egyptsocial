@@ -1330,10 +1330,10 @@ var slotConfig_3x5 = {
         popup.addButton('termsButton','extralong_button', 'extralong_button_hover', false, -2, 183 + yOffset);
 
         popup['privacyButton'].clickEvent.add(()=>{popup.scene.soundController.playClip('button_click', false);}, popup);
-        popup['privacyButton'].clickEvent.add(()=>{window.open("http://www.mkeystudio.com"); }, popup);
+        popup['privacyButton'].clickEvent.add(()=>{window.open("https://www.meistersocial.com/privacy-policy"); }, popup);
         
         popup['termsButton'].clickEvent.add(()=>{popup.scene.soundController.playClip('button_click', false);}, popup);
-        popup['termsButton'].clickEvent.add(()=>{window.open("http://www.mkeystudio.com"); }, popup);
+        popup['termsButton'].clickEvent.add(()=>{window.open("https://www.meistersocial.com/terms"); }, popup);
 
         popup['exitButton'].clickEvent.add(()=>{popup.scene.soundController.playClip('button_click', false);}, popup);
         popup['exitButton'].clickEvent.add(()=>{popup.scene.guiController.closePopUp(popup);});
