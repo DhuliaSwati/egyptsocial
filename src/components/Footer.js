@@ -56,7 +56,7 @@ export default function Footer(){
                         <p className="footerSub">Finn ut mer på vår dedikerte side for Ansvarlig Sosialt Spill.</p>
                     </Col>
                     <Col md={5}>
-                        <p className="highlight">GÅ TIL ANSVARLIG SOSIALT SPILL</p>
+                        <p className="highlight"><Link to="/responsible-play">GÅ TIL ANSVARLIG SOSIALT SPILL</Link></p>
                     </Col>
                     <Col md={1}>
                         <img src={plus} alt="18+" />
