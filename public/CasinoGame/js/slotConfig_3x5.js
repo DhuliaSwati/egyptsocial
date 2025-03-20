@@ -286,10 +286,6 @@ var slotConfig_3x5 = {
             name: 'specsymbol_plate'
         },
         {
-            fileName: 'gui/Logo.png',
-            name: 'logo'
-        }, 
-        {
             fileName: 'gui/ExitButton.png',
             name: 'exit_button'
         }, 
