@@ -24,7 +24,7 @@ const AgeVerificationPopup = ({ onAccept, onReject, showDenied }) => {
           </p>
           <ul className="terms-list">
             <li>
-              <Link to="/tjenestevilkår" target="_blank" rel="noopener noreferrer">
+              <Link to="/ansvarsfraskrivelse" target="_blank" rel="noopener noreferrer">
                 Ansvarsfraskrivelse
               </Link>
             </li>
