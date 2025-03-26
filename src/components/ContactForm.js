@@ -86,7 +86,7 @@ const ContactForm = () => {
               <div className="info-card privacy-info">
                 <h2>🛡️ Personvern</h2>
                 <p>Lurer du på hvordan vi håndterer dine data?</p>
-                <p>Les vår <a href="/privacy-policy">Personvernerklæring</a> og <a href="/terms">Vilkår for bruk</a> for full informasjon.</p>
+                <p>Les vår <a href="/personvernregler">Personvernerklæring</a> og <a href="/tjenestevilkår">Vilkår for bruk</a> for full informasjon.</p>
               </div>
             </section>
 
