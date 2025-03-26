@@ -25,8 +25,7 @@ export default function Header({logo}){
                     {/* Desktop Menu */}
                     <Col xs={4} md={4} className="d-none d-md-block">
                         <div className="links">
-                            <Link className="linkBtn" to="/signup">Registrer deg</Link>
-                            <Link className="linkBtn" to="/login">Logg inn</Link>
+                            <Link className="linkBtn" to="/game">Play Game</Link>
                         </div>
                     </Col>
 

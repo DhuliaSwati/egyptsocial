@@ -147,6 +147,28 @@ footer{
   line-height: 24px;
 }
 
+.disclaimer-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.disclaimer-text p {
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer-heading {
+  color: #ffcc00;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.disclaimer-footer {
+  margin-top: 1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .text-grey{
   color: #606060;
 }
@@ -194,6 +216,10 @@ ul li{
   max-width: 776px;
   margin: 0 auto;
   padding: 3vh 0;
+}
+
+.section p{
+  color: #ffffff;
 }
 
 /* Game css */

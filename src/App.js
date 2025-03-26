@@ -20,9 +20,9 @@ function App() {
       <Container>
       <Row>
         <Col className="outerSection">
-          <h1 className="h1Heading">#1Sosialt Casino</h1>
-          <p className="subPara">Gjør deg klar til å spille gratis</p>
-          <Link to="/signup" className="linkBtn">Bli med nå</Link>
+          <h1 className="h1Heading">#1 SOSIALT CASINO</h1>
+          <p className="subPara">Klar for å spille – helt gratis og bare for moro skyld!</p>
+          <Link to="/game" className="linkBtn">Bli med nå</Link>
         </Col>
       </Row>
       </Container>
@@ -32,22 +32,21 @@ function App() {
         <div className="outerSection">
           <div className="sectionHead">
             <img src={star} alt="stjerne" />
-          <h2 className="h2Heading">TOPP <span className="text-yellow">GRATIS-Å-SPILLE </span>Casino-STIL SPILL</h2>
+            <h2 className="h2Heading"> TOPP <span className="text-yellow">GRATIS-Å-SPILLE </span>CASINO-STIL SPILL</h2>
             <img src={star} alt="stjerne" />
           </div>
+          <p className="subPara">Ingen ekte penger. Ingen risiko. Bare underholdning.</p>
           <div className="imagesSection">
             <img src={img1} alt="Spill1" />
           </div>
-          <Link to="/signup" className="sectionBtn">Registrer deg for å spille gratis</Link>
+          <Link to="/game" className="sectionBtn">Spill gratis, ingen ekte penger nødvendig</Link>
         </div>
       {/* Third Fold */}
-      <div className="outerSection">
-      <h2 className="h2Heading">Ingen kjøp</h2>
-      </div>
         <div className="outerSection">
-          <h2 className="h2Heading">Det er alltid gratis å spille</h2>
+        <h2 className="h2Heading">DET ER ALLTID GRATIS Å SPILLE</h2>
+        <p className="subPara">Ingen kjøp, ingen innsatser – kun sosial moro!</p>
             <img src={img5} alt="Finn ut mer" />
-          <Link to="/signup" className="sectionBtn">Finn ut mer</Link>
+          <Link to="/game" className="sectionBtn">Spill gratis, ingen ekte penger nødvendig</Link>
         </div>
       </div>
       <Footer />

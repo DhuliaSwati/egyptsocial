@@ -15,86 +15,52 @@ const ResponsiblePlay = () => {
           <Row className="justify-content-center">
             <Col md={10} lg={8}>
               <div className="terms-content mt-4 mb-5 p-4">
-                <h1 className="text-center mb-4">Retningslinjer for Ansvarlig Sosialt Spill</h1>
+                <h1 className="text-center mb-4">🎯 Ansvarlig spilling</h1>
                 <p className="version-info text-center mb-4">
-                  <strong>Gjelder fra 1. juni 2023</strong>
+                  Sist oppdatert: 27. mars 2025
                 </p>
 
-                <p><strong>meistersocial</strong>-plattformen og <strong>meistersocial</strong> er forpliktet til å beskytte våre spillere og fremme ansvarlig sosialt spill som en del av vår kundeservice og sosiale ansvar. Vi erkjenner at spillene våre er underholdende og, som mange andre former for underholdning, bør brukes på en ansvarlig måte.</p>
+                <p>Hos MeisterSocial er vi opptatt av at spilling skal være morsomt, trygt og sunt. Vi tilbyr kun sosiale casinospill som er gratis å spille, og som ikke involverer ekte penger.</p>
 
-                <h3 className="mt-5 mb-3">GENERELT</h3>
-                <p>Disse retningslinjene for ansvarlig sosialt spill ("RSGP") beskriver de ulike verktøyene og ressursene som er tilgjengelige for våre spillere for å sikre ansvarlig spilling.</p>
-                <p>Vi forbeholder oss retten til å endre våre retningslinjer når som helst, og endringene trer i kraft umiddelbart.</p>
-                <p>RSGP er integrert i Tjenestevilkårene og er en del av disse Tjenestevilkårene som om de var fullstendig gjengitt her.</p>
+                <h2>💡 Hva betyr ansvarlig spilling?</h2>
+                <p>Ansvarlig spilling handler om å spille for underholdning – uten at det går utover hverdagen din, økonomien eller forholdene dine.</p>
+                <p>Selv om spillene våre ikke er pengespill, er det fortsatt viktig å ha gode spillevaner.</p>
 
-                <h3 className="mt-5 mb-3">RSGP KONTROLLVERKTØY</h3>
+                <h2>✅ Våre prinsipper for ansvarlig spilling:</h2>
                 <ul>
-                  <li><strong>Aktive Påminnelser</strong></li>
-                  <li><strong>Kontohistorikk</strong></li>
-                  <li><strong>Ulike Selvbegrensningsalternativer</strong></li>
+                  <li>🎮 Spill for moro – ikke som en måte å løse problemer på</li>
+                  <li>🧘 Ta pauser – ikke spill over lengre perioder uten avbrekk</li>
+                  <li>⏰ Sett tidsgrenser – og hold deg til dem</li>
+                  <li>👀 Vær bevisst – kjenn igjen tegn på avhengighet eller tvang</li>
+                  <li>🔞 Plattformen er kun for brukere over 18 år</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">TILGANG TIL RSG-KONTROLLVERKTØY</h3>
-                <p>Kontrollverktøyene beskrevet nedenfor er tilgjengelige hvis spillingen din kan ha blitt, eller står i fare for å bli, problematisk. Du kan benytte deg av disse verktøyene ved å kontakte oss:</p>
+                <h2>⚠️ Er du bekymret for ditt eget eller andres spillmønster?</h2>
+                <p>Hvis du føler at spilling tar overhånd – selv med gratisspill – anbefaler vi at du snakker med noen.</p>
+                <p>👉 Hjelpelinjen.no tilbyr gratis og anonym rådgivning for alle i Norge:</p>
+                <p>🔗 <a href="http://www.hjelpelinjen.no" target="_blank" rel="noopener noreferrer">www.hjelpelinjen.no</a></p>
+                <p>📞 800 800 40 (døgnåpent)</p>
+
+                <h2>🔒 Spill trygt på MeisterSocial</h2>
                 <ul>
-                  <li><strong>Ta en Pause</strong>: Vennligst kontakt oss med din forespørsel og for alternativer.</li>
-                  <li><strong>Selvekskludering</strong>: Vennligst kontakt oss med din forespørsel og for alternativer.</li>
-                  <li><strong>Permanent Stenging</strong>: Vennligst kontakt oss med din forespørsel.</li>
+                  <li>MeisterSocial tilbyr kun gratis sosiale casinospill</li>
+                  <li>Det finnes ingen innsats, kjøp eller mulighet for å vinne ekte penger</li>
+                  <li>Fremgang i spillene gir ingen fordel i ekte pengespill</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">SELVEVALUERING OG VURDERING</h3>
-                <p>Hvis du mistenker at din eller andres videospilling kan være problematisk, oppfordrer vi deg til å ta en vurderingstest. En slik test er tilgjengelig på Spillavhengighetstest for Spillere.</p>
-
-                <h3 className="mt-5 mb-3">STØTTE</h3>
-                <p>Vennligst vurder en av følgende ressurser hvis spillaktivitetene dine har hatt en negativ innvirkning på din mentale og emosjonelle helse, samt økonomiske konsekvenser. Vi er ikke tilknyttet noen av disse organisasjonene:</p>
+                <h2>🧠 Trenger du tips?</h2>
                 <ul>
-                  <li><strong>Spillavhengige Anonyme (GAA)</strong>: Et fellesskap av mennesker som støtter hverandre i å komme seg over problemer som følge av overdreven spilling.</li>
-                  <li><strong>Finansrådgivningsforeningen i Norge (FCAN)</strong>: En profesjonell forening av finansrådgivningsbyråer som hjelper forbrukere med finansiell rådgivning av alle slag, samt gjeldsordninger for tilbakebetaling av usikret gjeld.</li>
-                  <li><strong>Nasjonal Stiftelse for Kredittråd (NFCC)</strong>: Et av de eldste nettverkene av ideelle finansrådgivningsbyråer. NFCC hjelper mennesker med å overvinne gjeld og se fremover med tillit.</li>
+                  <li>Spill med venner – gjør det sosialt</li>
+                  <li>Sett opp egne grenser: for tid og frekvens</li>
+                  <li>Husk: Dette er bare et spill, ikke en konkurranse om å vinne</li>
                 </ul>
 
-                <h3 className="mt-5 mb-3">OPPLÆRINGSRESSURSER</h3>
-                
-                <h4 className="mb-3">Spillprinsipper:</h4>
-                <ul>
-                  <li><strong>Tilfeldighet</strong>: Vinnere av spill blir bestemt tilfeldig.</li>
-                  <li><strong>Utfall kan ikke forutsies av tidligere resultater.</strong></li>
-                </ul>
-
-                <h4 className="mb-3">Vanlige Misforståelser:</h4>
-                <ul>
-                  <li>Å tro at "jeg er due for en seier" er en feilslutning siden alle utfall i tilfeldighetsspill er tilfeldige og ikke kan forutsies.</li>
-                  <li>Å tro at en lykkebringer eller før-spill ritual påvirker dine vinnersjanser er en misforståelse, da disse faktorene ikke har noen innvirkning på spillets tilfeldige utfall.</li>
-                  <li>Å anta at å spille et spill over lengre tid øker dine vinnersjanser er feil, da sannsynligheten for å vinne forblir den samme for hver spillrunde uavhengig av hvor mye tid som brukes på å spille.</li>
-                </ul>
-
-                <h3 className="mt-5 mb-3">TIPS FOR TRYGT SPILL:</h3>
-                <ul>
-                  <li>Unngå å spille når du er sint, trist eller følelsesmessig påvirket.</li>
-                  <li>Ta hyppige og regelmessige pauser under spilløktene.</li>
-                  <li>Ikke spill når du er påvirket av rusmidler eller alkohol.</li>
-                  <li>Videospill er bare én form for underholdning, og det finnes andre alternativer.</li>
-                  <li>Hvis du gjør et valgfritt kjøp, sørg for at det er med penger du har råd til å bruke.</li>
-                  <li>Sett en tidsramme for spilling.</li>
-                  <li>Forstå hvordan spillene fungerer og at vinnere er tilfeldige.</li>
-                  <li>Ikke la spilling påvirke din jobb, relasjoner, helse eller sosiale forpliktelser eller andre forpliktelser.</li>
-                </ul>
-
-                <h3 className="mt-5 mb-3">BESKYTTELSE AV SPILLERE</h3>
-                <p>Vi anbefaler ikke spilling hvis du:</p>
-                <ul>
-                  <li>Har en historie med avhengighet eller avhengighetsproblemer, eller for tiden er under behandling for slike tilstander.</li>
-                  <li>Er påvirket av stoffer som kan svekke dømmekraften din.</li>
-                  <li>Opplever økonomiske problemer eller stressende eller traumatiske livshendelser.</li>
-                  <li>Ikke forstår reglene og spillmekanikkene i spillene.</li>
-                  <li>Har psykiske helseproblemer (faktiske eller mistenkte), mentale svekkelser eller fysisk hjerneskade.</li>
-                </ul>
-
-                <h3 className="mt-5 mb-3">BESKYTTELSE AV MINDREÅRIGE</h3>
-                <p>Vi har ulike system- og identitetskontroller på plass for å forhindre mindreårig spilling. Hvis du deler enhetene dine med mindreårige, anbefaler vi å begrense deres tilgang til vår plattform ved hjelp av ulik internettblokkering og overvåkingsprogramvare.</p>
-
-                <h3 className="mt-5 mb-3">GJELDENDE LOV</h3>
-                <p>Disse retningslinjene for ansvarlig sosialt spill er underlagt norsk lov. Eventuelle tvister som oppstår fra eller er relatert til disse retningslinjene skal løses i henhold til norsk lov.</p>
+                <h2>📩 Kontakt oss</h2>
+                <p>Har du spørsmål eller trenger hjelp?</p>
+                <p>MeisterSocial AS</p>
+                <p>📧 meister@gmail.com</p>
+                <p>📍 Dronning Eufemias gate 16, 0191 Oslo, Norge</p>
+                <p>�� +47 22 83 70 10</p>
               </div>
             </Col>
           </Row>

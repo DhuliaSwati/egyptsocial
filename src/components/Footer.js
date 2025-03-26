@@ -69,20 +69,29 @@ export default function Footer(){
             <Container className="footerMiddle pb-4">
                 <Row>
                     <Col xs={12} md={7} className="mb-4 mb-md-0">
-                        <p className="disclaimer-text">Dette er et gratis sosialt kasino med fokus på underholdning. Det er verken ekte penger eller gevinster involvert. Ansvarsfraskrivelse: Nettstedet er utelukkende laget for gratis underholdning. Alle spillene på siden vår er egenutviklede og designet kun for underholdningsformål. Spillene er beregnet for voksne over 18 år. Våre sosiale kasinospill innebærer ingen bruk av ekte penger og gir heller ikke mulighet for å vinne pengepremier. Fremgang i spillene våre er ikke en indikasjon på fremgang i pengespill med ekte penger. Vi oppfordrer til ansvarlig spill og understreker at våre spill kun er ment som en form for underholdning.</p>
+                        <div className="disclaimer-text">
+                            <p>Dette er et gratis sosialt kasino med fokus på underholdning.</p>
+                            <p>Det er verken ekte penger involvert, og det er ikke mulig å vinne pengepremier.</p>
+                            
+                            <p className="disclaimer-heading">Ansvarsfraskrivelse:</p>
+                            <p>Nettstedet er utelukkende utviklet for gratis underholdning.</p>
+                            <p>Alle spillene på siden er egenutviklede og laget kun for underholdningsformål.</p>
+                            <p>Spillene er beregnet for voksne over 18 år.</p>
+                            <p>Våre sosiale kasinospill innebærer ingen bruk av ekte penger, og gir ingen mulighet for å vinne gevinster eller kontantpremier.</p>
+                            <p>Fremgang i spillene er ikke en indikator på ferdigheter i pengespill med ekte penger.</p>
+                            
+                            <p className="disclaimer-footer">Vi oppfordrer til ansvarlig spill, og understreker at spillene på MeisterSocial er ment utelukkende som underholdning.</p>
+                        </div>
                     </Col>
                     
-                    <Col xs={6} md={3} className="footer-links-col">
+                    <Col xs={12} md={5} className="footer-links-col">
                         <ul className="footer-links">
                             <Link to="/terms"><li>Tjenestevilkår</li></Link>
                             <Link to="/responsible-play"><li>Ansvarlig Sosialt Spill</li></Link>
-                        </ul>
-                    </Col>
-                    
-                    <Col xs={6} md={2} className="footer-links-col">
-                        <ul className="footer-links">
                             <Link to="/privacy-policy"><li>Personvernregler</li></Link>
                             <Link to="/contact-us"><li>Kontakt oss</li></Link>
+                            <Link to="/disclaimer"><li>Ansvarsfraskrivelse</li></Link>
+                            <Link to="/about"><li>Om oss</li></Link>
                         </ul>
                     </Col>
                 </Row>

@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import SignUp from "./components/SignUp";
-import Login from "./components/Login";
 import Game from "./components/Game";
 import './index.css';
 import App from './App';
@@ -11,21 +9,33 @@ import TermsService from './components/TermsService';
 import ResponsiblePlay from './components/ResponsiblePlay';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ContactUs from "./components/ContactForm";
+import About from './components/About';
+import Disclaimer from './components/Disclaimer';
+
+// Add this scroll to top component
+function ScrollToTop() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return null;
+}
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
     <BrowserRouter>
+    <ScrollToTop /> 
             <Routes>
                 <Route path="/" element={<App />} />
-                <Route path="/signup" element={<SignUp />} />
-                <Route path="/login" element={<Login />} />
                 <Route path="/game" element={<Game />} />
                 <Route path="/terms" element={<TermsService />} />
                 <Route path="/responsible-play" element={<ResponsiblePlay />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/contact-us" element={<ContactUs />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/disclaimer" element={<Disclaimer />} />
             </Routes>
             </BrowserRouter>
   </React.StrictMode>
