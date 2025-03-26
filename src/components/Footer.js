@@ -57,7 +57,7 @@ export default function Footer(){
                     </Col>
                     <Col xs={10} md={5} className="mb-3 mb-md-0">
                         <p className="highlight mobile-full-width">
-                            <Link to="/responsible-play">GÅ TIL ANSVARLIG SOSIALT SPILL</Link>
+                            <Link to="/ansvarlig-sosialt-spill">GÅ TIL ANSVARLIG SOSIALT SPILL</Link>
                         </p>
                     </Col>
                     <Col xs={2} md={1} className="text-right">
