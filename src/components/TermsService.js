@@ -51,10 +51,10 @@ const TermsService = () => {
 
                 <h2>🔐 5. Personvern og Informasjonskapsler</h2>
                 <p>Vi bruker informasjonskapsler og samler inn anonym bruksdata for å forbedre tjenesten.</p>
-                <p>Les mer i vår Personvernerklæring.</p>
+                <p>Les mer i vår <Link to="/personvernregler">Personvernerklæring.</Link></p>
 
                 <h2>🔁 6. Endringer i Vilkårene</h2>
-                <p>Vi kan oppdatere vilkårene uten forvarsel. Ved videre bruk av nettstedet godtar du endringene.</p>
+                <p>Vi kan oppdatere <Link to="/tjenestevilkår"> vilkårene </Link> uten forvarsel. Ved videre bruk av nettstedet godtar du endringene.</p>
 
                 <h2>📬 7. Kontakt</h2>
                 <p>Har du spørsmål om disse vilkårene? Kontakt oss:</p>
