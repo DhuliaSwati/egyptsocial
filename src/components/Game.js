@@ -36,7 +36,7 @@ const Game = () => {
   };
 
   return (
-    <>
+    <div className="game-page">
       {showPopup && (
         <AgeVerificationPopup 
           onAccept={handleAccept}
@@ -48,7 +48,7 @@ const Game = () => {
       {(verified || !showPopup) && (
         <>
           <Header logo={logo}/>
-          <div className="game-container">
+          <main className="game-container">
             <iframe 
               src="/CasinoGame/index.html"
               title="Game"
@@ -56,11 +56,11 @@ const Game = () => {
               allow="autoplay"
               frameBorder="0"
             />
-          </div>
+          </main>
           <Footer />
         </>
       )}
-    </>
+    </div>
   );
 };
 

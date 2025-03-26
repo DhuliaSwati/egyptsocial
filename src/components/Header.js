@@ -58,17 +58,10 @@ export default function Header({logo}){
                     <div className="mobile-menu-content">
                         <Link 
                             className="mobile-link" 
-                            to="/signup" 
+                            to="/spill" 
                             onClick={() => setIsMenuOpen(false)}
                         >
-                            Registrer deg
-                        </Link>
-                        <Link 
-                            className="mobile-link" 
-                            to="/login" 
-                            onClick={() => setIsMenuOpen(false)}
-                        >
-                            Logg inn
+                            Spill nå
                         </Link>
                     </div>
                 </div>
