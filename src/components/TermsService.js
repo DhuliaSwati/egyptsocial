@@ -6,7 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import "./Policy.css";
 import logo from "../assets/Logo.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const TermsService = () => {
   return (
@@ -55,7 +55,7 @@ const TermsService = () => {
                 <p>Les mer i vår <Link to="/personvernregler">Personvernerklæring.</Link></p>
 
                 <h2>🔁 6. Endringer i Vilkårene</h2>
-                <p>Vi kan oppdatere <Link to="/tjenestevilkår"> vilkårene </Link> uten forvarsel. Ved videre bruk av nettstedet godtar du endringene.</p>
+                <p>Vi kan oppdatere <Link to="/tjenestevilkår">vilkårene</Link> uten forvarsel. Ved videre bruk av nettstedet godtar du endringene.</p>
 
                 <h2>📬 7. Kontakt</h2>
                 <p>Har du spørsmål om disse vilkårene? Kontakt oss:</p>
