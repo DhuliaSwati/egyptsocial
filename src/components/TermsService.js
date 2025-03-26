@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import "./Policy.css";
 import logo from "../assets/Logo.png";
+import {Link} from "react-router-dom";
 
 const TermsService = () => {
   return (

@@ -236,6 +236,40 @@ ul li{
 }
 
 /* Header Styles */
+.warning-banner {
+  background: linear-gradient(90deg, #ffcc00 0%, #ffd700 100%);
+  padding: 8px 0;
+  color: #333;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 1000;
+}
+
+.warning-banner p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.warning-icon {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .warning-banner {
+      padding: 10px 15px;
+      font-size: 0.8rem;
+  }
+  
+  .warning-banner p {
+      text-align: left;
+  }
+}
+
 header {
     position: relative;
     padding: 1rem 0;

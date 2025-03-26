@@ -5,8 +5,6 @@ import Col from "react-bootstrap/esm/Col"
 import { Link} from "react-router-dom"
 import "../index.css"
 
-
-
 export default function Header({logo}){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,56 +13,66 @@ export default function Header({logo}){
     };
 
     return(
-        <header>
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={8} md={8}>
-                        <Link to="/">
-                            <img src={logo} alt="Logo" className="header-logo" />
-                        </Link>
-                    </Col>
-                    
-                    {/* Desktop Menu */}
-                    <Col xs={4} md={4} className="d-none d-md-block">
-                        <div className="links">
-                            <Link className="linkBtn" to="/spill">Spill nå</Link>
-                        </div>
-                    </Col>
-
-                    {/* Mobile Burger Menu */}
-                    <Col xs={4} className="d-md-none text-right">
-                        <button 
-                            className={`burger-menu ${isMenuOpen ? 'open' : ''}`}
-                            onClick={toggleMenu}
-                            aria-label="Toggle menu"
-                        >
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
-                    </Col>
-                </Row>
-            </Container>
-
-            {/* Mobile Menu Overlay */}
-            <div className={`mobile-menu ${isMenuOpen ? 'show' : ''}`}>
-                <div className="mobile-menu-content">
-                    <Link 
-                        className="mobile-link" 
-                        to="/signup" 
-                        onClick={() => setIsMenuOpen(false)}
-                    >
-                        Registrer deg
-                    </Link>
-                    <Link 
-                        className="mobile-link" 
-                        to="/login" 
-                        onClick={() => setIsMenuOpen(false)}
-                    >
-                        Logg inn
-                    </Link>
-                </div>
+        <>
+            <div className="warning-banner">
+                <Container>
+                    <p>
+                        <span className="warning-icon">🔞</span>
+                        MeisterSocial is a free-to-play social casino platform. We do not collect any payments, bets, or financial information, and we do not offer real-money gambling or the opportunity to win real cash.
+                    </p>
+                </Container>
             </div>
-        </header>
+            <header>
+                <Container>
+                    <Row className="align-items-center">
+                        <Col xs={8} md={8}>
+                            <Link to="/">
+                                <img src={logo} alt="Logo" className="header-logo" />
+                            </Link>
+                        </Col>
+                        
+                        {/* Desktop Menu */}
+                        <Col xs={4} md={4} className="d-none d-md-block">
+                            <div className="links">
+                                <Link className="linkBtn" to="/spill">Spill nå</Link>
+                            </div>
+                        </Col>
+
+                        {/* Mobile Burger Menu */}
+                        <Col xs={4} className="d-md-none text-right">
+                            <button 
+                                className={`burger-menu ${isMenuOpen ? 'open' : ''}`}
+                                onClick={toggleMenu}
+                                aria-label="Toggle menu"
+                            >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </Col>
+                    </Row>
+                </Container>
+
+                {/* Mobile Menu Overlay */}
+                <div className={`mobile-menu ${isMenuOpen ? 'show' : ''}`}>
+                    <div className="mobile-menu-content">
+                        <Link 
+                            className="mobile-link" 
+                            to="/signup" 
+                            onClick={() => setIsMenuOpen(false)}
+                        >
+                            Registrer deg
+                        </Link>
+                        <Link 
+                            className="mobile-link" 
+                            to="/login" 
+                            onClick={() => setIsMenuOpen(false)}
+                        >
+                            Logg inn
+                        </Link>
+                    </div>
+                </div>
+            </header>
+        </>
     )
 }

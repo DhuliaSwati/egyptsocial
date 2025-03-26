@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import Footer from "./Footer";
 import "../index.css";
 import "./Game.css";
+import Header from './Header';
+import logo from "../assets/Logo.png";
 
 const Game = () => {
   const [showGame, setShowGame] = useState(false);
@@ -22,6 +24,7 @@ const Game = () => {
 
   return (
     <>
+    <Header logo={logo} />
       <div className="game-container">
         {!showGame && !showDenied && (
           <div className="game-popup accept-popup">

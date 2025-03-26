@@ -100,7 +100,7 @@ export default function Footer(){
             <Container className="footerBottom py-3">
                 <Row>
                     <Col className="text-center">
-                        <p className="text-grey copyright">Inc. © 2025 meistersocial. Alle rettigheter reservert.</p>
+                        <p className="copyright">© 2025 MeisterSocial AS – Kun for underholdning. Ingen pengespill. Ingen ekte penger. Ingen pengepremier.</p>
                     </Col>
                 </Row>
             </Container>
