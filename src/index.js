@@ -29,13 +29,13 @@ root.render(
     <ScrollToTop /> 
             <Routes>
                 <Route path="/" element={<App />} />
-                <Route path="/game" element={<Game />} />
-                <Route path="/terms" element={<TermsService />} />
-                <Route path="/responsible-play" element={<ResponsiblePlay />} />
-                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-                <Route path="/contact-us" element={<ContactUs />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/disclaimer" element={<Disclaimer />} />
+                <Route path="/spill" element={<Game />} />
+                <Route path="/tjenestevilkår" element={<TermsService />} />
+                <Route path="/ansvarlig-sosialt-spill" element={<ResponsiblePlay />} />
+                <Route path="/personvernregler" element={<PrivacyPolicy />} />
+                <Route path="/kontakt-oss" element={<ContactUs />} />
+                <Route path="/om-oss" element={<About />} />
+                <Route path="/ansvarsfraskrivelse" element={<Disclaimer />} />
             </Routes>
             </BrowserRouter>
   </React.StrictMode>

@@ -5,6 +5,8 @@ import Col from "react-bootstrap/esm/Col"
 import { Link} from "react-router-dom"
 import "../index.css"
 
+<script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="BXb-AQSaX6hz53" async></script>
+
 export default function Header({logo}){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -25,7 +27,7 @@ export default function Header({logo}){
                     {/* Desktop Menu */}
                     <Col xs={4} md={4} className="d-none d-md-block">
                         <div className="links">
-                            <Link className="linkBtn" to="/game">Play Game</Link>
+                            <Link className="linkBtn" to="/spill">Play Game</Link>
                         </div>
                     </Col>
 

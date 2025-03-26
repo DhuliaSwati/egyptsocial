@@ -86,12 +86,12 @@ export default function Footer(){
                     
                     <Col xs={12} md={5} className="footer-links-col">
                         <ul className="footer-links">
-                            <Link to="/terms"><li>Tjenestevilkår</li></Link>
-                            <Link to="/responsible-play"><li>Ansvarlig Sosialt Spill</li></Link>
-                            <Link to="/privacy-policy"><li>Personvernregler</li></Link>
-                            <Link to="/contact-us"><li>Kontakt oss</li></Link>
-                            <Link to="/disclaimer"><li>Ansvarsfraskrivelse</li></Link>
-                            <Link to="/about"><li>Om oss</li></Link>
+                            <Link to="/tjenestevilkår"><li>Tjenestevilkår</li></Link>
+                            <Link to="/ansvarlig-sosialt-spill"><li>Ansvarlig Sosialt Spill</li></Link>
+                            <Link to="/personvernregler"><li>Personvernregler</li></Link>
+                            <Link to="/kontakt-oss"><li>Kontakt oss</li></Link>
+                            <Link to="/ansvarsfraskrivelse"><li>Ansvarsfraskrivelse</li></Link>
+                            <Link to="/om-oss"><li>Om oss</li></Link>
                         </ul>
                     </Col>
                 </Row>
