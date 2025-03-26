@@ -68,7 +68,7 @@ export default function Footer(){
             
             <Container className="footerMiddle pb-4">
                 <Row>
-                    <Col xs={12} md={7} className="mb-4 mb-md-0">
+                    <Col xs={12} md={9} className="mb-4 mb-md-0">
                         <div className="disclaimer-text">
                             <p>Dette er et gratis sosialt kasino med fokus på underholdning.</p>
                             <p>Det er verken ekte penger involvert, og det er ikke mulig å vinne pengepremier.</p>
@@ -84,7 +84,7 @@ export default function Footer(){
                         </div>
                     </Col>
                     
-                    <Col xs={12} md={5} className="footer-links-col">
+                    <Col xs={12} md={3} className="footer-links-col">
                         <ul className="footer-links">
                             <Link to="/tjenestevilkår"><li>Tjenestevilkår</li></Link>
                             <Link to="/ansvarlig-sosialt-spill"><li>Ansvarlig Sosialt Spill</li></Link>
