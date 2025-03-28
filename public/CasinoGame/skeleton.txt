@@ -1,0 +1,30 @@
+skeleton.png
+	size: 597, 187
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Asset 1
+	bounds: 374, 15, 31, 147
+	rotate: 90
+Asset 10
+	bounds: 374, 48, 80, 137
+Asset 11
+	bounds: 523, 9, 63, 49
+Asset 12
+	bounds: 575, 93, 20, 35
+Asset 2
+	bounds: 556, 130, 28, 55
+Asset 3
+	bounds: 456, 76, 53, 109
+Asset 4
+	bounds: 374, 2, 11, 11
+Asset 5
+	bounds: 456, 60, 98, 14
+Asset 6
+	bounds: 511, 123, 43, 62
+Asset 7
+	bounds: 2, 6, 179, 370
+	rotate: 90
+Asset 8
+	bounds: 511, 78, 43, 62
+	rotate: 90
